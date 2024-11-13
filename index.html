@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="styles.css">
+<div class="container">
+    <h1 id="title">How can E-Sports improve their entertainment value?</h1>
+    <p id="description">Thank you for taking the time to help E-Sports affiliates improve.</p>
+    
+    <form id="survey-form">
+        <div class="input-element">
+            <label for="name" id="name-label">Name</label>
+            <input placeholder="name" id="name" type="text" required />
+        </div>
+
+        <div class="input-element">
+            <label for="email" id="email-label">Email</label>
+            <input placeholder="email" id="email" type="email" required />
+        </div>
+
+        <div class="input-element">
+            <label for="age" id="number-label">Age</label>
+            <input placeholder="age" id="number" min="14" max="60" type="number" required />
+        </div>
+
+        <div class="input-element">
+            <label for="dropdown">What famous E-Sport game do you play?</label>
+            <select id="dropdown">
+                <option>Valorant</option>
+                <option>Mobile Legends: Bang Bang</option>
+                <option>Call of Duty</option>
+                <option>Genshin Impact</option>
+                <option>League of Legends</option>
+            </select>
+        </div>
+
+        <div class="input-element">
+            <label>Have you joined any E-Sport Tournaments before?</label>
+            <div>
+                <label><input type="radio" name="tournament" value="yes" />Yes</label>
+                <label><input type="radio" name="tournament" value="no" />No</label>
+            </div>
+        </div>
+
+        <div class="input-element">
+            <label>How frequently do you watch E-Sports events?</label>
+            <div>
+                <label><input type="checkbox" name="frequency" value="daily" />Daily</label>
+                <label><input type="checkbox" name="frequency" value="weekly" />Weekly</label>
+                <label><input type="checkbox" name="frequency" value="monthly" />Monthly</label>
+                <label><input type="checkbox" name="frequency" value="occasionally" />Occasionally</label>
+                <label><input type="checkbox" name="frequency" value="never" />Never</label>
+            </div>
+        </div>
+
+        <div class="input-element">
+            <label>What platforms do you use to watch E-Sports? (select all that apply)</label>
+            <div>
+                <label><input type="checkbox" name="platform" value="youtube" />YouTube</label>
+                <label><input type="checkbox" name="platform" value="facebook" />Facebook</label>
+                <label><input type="checkbox" name="platform" value="official" />Official E-Sports websites</label>
+                <label><input type="checkbox" name="platform" value="tiktok" />TikTok</label>
+                <label><input type="checkbox" name="platform" value="other" />Other</label>
+            </div>
+        </div>
+
+        <div class="input-element">
+            <label>Additional comments</label>
+            <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</div>
